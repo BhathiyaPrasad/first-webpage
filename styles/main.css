@@ -1,4 +1,23 @@
+body {
+    margin: 0;
+}
+
 h1 {
     color: red;
     font-family: sans-serif;
+}
+
+.navigation {
+    font-size: 16pt;
+    background-color: bisque;
+}
+
+.nav-link {
+    display: inline;
+    padding-right: 10%;
+}
+
+.nav-link:hover {
+    color: red;
+    cursor: pointer;
 }
